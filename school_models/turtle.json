@@ -1,0 +1,72 @@
+{
+    "1-6": {
+        "description": "По 4 класса в параллелях 1-4 и по 6 классов в параллелях 5-6",
+        "total_classes": 28,
+        "rooms": {
+            "universal": 26,
+            "foreign_lang": 3,
+            "biology_safety": 1,
+            "physics": 0,
+            "chemistry": 0,
+            "it_info": 0,
+            "it_material": 2,
+            "informatics": 0
+        }
+    },
+    "5-11": {
+        "description": "По 4 класса в 5 параллели, по 5 классов в параллелях 6-9 и по 3 класса в параллелях 10-11",
+        "total_classes": 30,
+        "rooms": {
+            "universal": 18,
+            "foreign_lang": 3,
+            "biology_safety": 2,
+            "physics": 2,
+            "chemistry": 1,
+            "it_info": 1,
+            "it_material": 2,
+            "informatics": 1
+        }
+    },
+    "7-11": {
+        "description": "По 7 классов в параллелях 7-8, по 8 классов в 9 параллели и по 4 класса в параллелях 10-11",
+        "total_classes": 30,
+        "rooms": {
+            "universal": 17,
+            "foreign_lang": 3,
+            "biology_safety": 2,
+            "physics": 2,
+            "chemistry": 2,
+            "it_info": 1,
+            "it_material": 2,
+            "informatics": 2
+        }
+    },
+    "1-9": {
+        "description": "По 3 класса в параллелях 1-9",
+        "total_classes": 27,
+        "rooms": {
+            "universal": 20,
+            "foreign_lang": 3,
+            "biology_safety": 2,
+            "physics": 1,
+            "chemistry": 1,
+            "it_info": 1,
+            "it_material": 2,
+            "informatics": 1
+        }
+    },
+    "1-11": {
+        "description": "По 2 класса в параллелях 1, 5-7, по 3 класса в параллелях 2-4, 8-9 и по 2 класса в параллелях 10-11",
+        "total_classes": 27,
+        "rooms": {
+            "universal": 20,
+            "foreign_lang": 3,
+            "biology_safety": 2,
+            "physics": 2,
+            "chemistry": 1,
+            "it_info": 1,
+            "it_material": 2,
+            "informatics": 1
+        }
+    }
+}

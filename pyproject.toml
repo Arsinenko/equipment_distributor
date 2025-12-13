@@ -1,0 +1,17 @@
+[project]
+name = "equipment-distributor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "openpyexcel>=2.5.14",
+    "openpyxl>=3.1.5",
+    "packaging>=25.0",
+    "pandas>=2.3.3",
+    "pyqt6>=6.10.1",
+    "requests>=2.32.5",
+    "setuptools>=80.9.0",
+    "undetected-chromedriver>=3.5.5",
+]

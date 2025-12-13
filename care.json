@@ -1,0 +1,86 @@
+{
+    "1-4": {
+        "description": "По 8 классов в параллелях 1-2 и по 9 классов в параллелях 3-4",
+        "total_classes": 34,
+        "rooms": {
+            "universal": 36,
+            "foreign_lang": 3,
+            "biology_safety": 0,
+            "physics": 0,
+            "chemistry": 0,
+            "it_info": 0,
+            "it_material": 0,
+            "informatics": 0
+        }
+    },
+    "1-6": {
+        "description": "По 4 класса в 1 параллели и по 6 классов в параллелях 2-6",
+        "total_classes": 34,
+        "rooms": {
+            "universal": 31,
+            "foreign_lang": 3,
+            "biology_safety": 1,
+            "physics": 0,
+            "chemistry": 0,
+            "it_info": 0,
+            "it_material": 2,
+            "informatics": 1
+        }
+    },
+    "5-11": {
+        "description": "По 5 классов в 5 параллели, по 6 классов в параллелях 6-9 и по 3 класса в параллелях 10-11",
+        "total_classes": 35,
+        "rooms": {
+            "universal": 21,
+            "foreign_lang": 4,
+            "biology_safety": 3,
+            "physics": 3,
+            "chemistry": 2,
+            "it_info": 1,
+            "it_material": 2,
+            "informatics": 2
+        }
+    },
+    "7-11": {
+        "description": "По 9 классов в параллелях 7-9 и по 4 класса в параллелях 10-11",
+        "total_classes": 35,
+        "rooms": {
+            "universal": 22,
+            "foreign_lang": 4,
+            "biology_safety": 2,
+            "physics": 3,
+            "chemistry": 2,
+            "it_info": 1,
+            "it_material": 0,
+            "informatics": 2
+        }
+    },
+    "1-9": {
+        "description": "3 класса в параллели 1, по 4 класса в параллелях 2-9",
+        "total_classes": 35,
+        "rooms": {
+            "universal": 26,
+            "foreign_lang": 3,
+            "biology_safety": 2,
+            "physics": 2,
+            "chemistry": 2,
+            "it_info": 1,
+            "it_material": 2,
+            "informatics": 1
+        }
+    },
+    "1-11": {
+        "description": "По 3 класса в параллелях 1-5, по 4 класса в параллелях 6-9 и по 2 класса в параллелях 10-11",
+        "total_classes": 35,
+        "rooms": {
+            "universal": 26,
+            "foreign_lang": 3,
+            "biology_safety": 2,
+            "physics": 2,
+            "chemistry": 2,
+            "it_info": 1,
+            "it_material": 2,
+            "informatics": 1
+        }
+    }
+}
