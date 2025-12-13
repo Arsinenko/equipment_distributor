@@ -21,6 +21,10 @@
 
 ## Установка
 
+Собранное приложение можно найти в [Releases](https://github.com/Arsinenko/equipment_distributor/releases/).
+
+Для запуска из исходного кода:
+
 1.  Клонируйте репозиторий:
     ```bash
     git clone https://github.com/your-username/equipment-distributor.git
