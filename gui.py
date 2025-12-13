@@ -1,3 +1,4 @@
+from PyQt6.QtGui import QIcon
 import sys
 import os
 import pandas as pd
@@ -35,6 +36,7 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.setWindowTitle("Equipment Distributor")
         self.resize(800, 600)
+        self.setWindowIcon(QIcon("logo.ico"))
         
         self.equipment_file = "equipment.xlsx"
         self.school_file = "care.json"
@@ -91,6 +93,7 @@ class MainWindow(QMainWindow):
     def set_dark_theme(self):
         app = QApplication.instance()
         app.setStyle("Fusion")
+        
         
         palette = QPalette()
         palette.setColor(QPalette.ColorRole.Window, QColor(53, 53, 53))
