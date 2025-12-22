@@ -10,6 +10,7 @@ dependencies = [
     "openpyxl>=3.1.5",
     "packaging>=25.0",
     "pandas>=2.3.3",
+    "pyinstaller>=6.17.0",
     "pyqt6>=6.10.1",
     "requests>=2.32.5",
     "setuptools>=80.9.0",
