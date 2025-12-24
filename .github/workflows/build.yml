@@ -1,0 +1,35 @@
+name: Multi-OS Build
+on:
+  push:
+    tags: ['v*'] # Запуск при пуше тега версии
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        # Список ОС для сборки
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5 # Версия актуальна на 2025 год
+        with:
+          python-version: '3.11' # Укажите нужную версию
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyinstaller -r requirements.txt
+
+      - name: Build with PyInstaller
+        run: pyinstaller --onefile --noconsole test.py # Замените main.py на ваш скрипт
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: binary-${{ matrix.os }}
+          path: dist/ # Путь, куда PyInstaller сохраняет бинарник
