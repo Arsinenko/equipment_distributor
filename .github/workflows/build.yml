@@ -2,6 +2,7 @@ name: Multi-OS Build
 on:
   push:
     tags: ['v*'] # Запуск при пуше тега версии
+  workflow_dispatch:
 
 jobs:
   build:
